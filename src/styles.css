@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Playfair+Display:wght@700&family=Poppins:ital,wght@0,700;1,500&family=Roboto:wght@100;300;400&display=swap');
 
+* {
+    margin: 0 auto;
+}
+
 .container {
     background-image: conic-gradient(at bottom right, #685FD4 40%, #8AB2DC, #E5E501 40%, #F2C94C, #FFFFFF);
     font-family: 'Lato', sans-serif;
@@ -43,16 +47,23 @@ h1 {
 }
 
 .hero-container>p {
-    font-weight: 400;
+    padding: 1rem 0;
+   
     font-size: 1rem;
+}
+
+.button {
+    padding-top: rem;
 }
 
 button {
     padding: 1rem 3rem;
     background-color: #333333;
+    border: #333333;
     color: white;
     border-radius: 2rem;
 }
+
 
 .card_container {
     display: flex;
