@@ -5,7 +5,7 @@
 }
 
 .container {
-    background-image:url(../images/gradient.png);
+    background-image: url(./images/gradient.png);
     font-family: 'Lato', sans-serif;
 }
 
@@ -48,7 +48,7 @@ h1 {
 
 .hero-container>p {
     padding: 1rem 0;
-   
+
     font-size: 1rem;
 }
 
