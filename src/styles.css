@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Playfair+Display:wght@700&family=Poppins:ital,wght@0,700;1,500&family=Roboto:wght@100;300;400&display=swap');
 
 * {
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .container {
-    background-image: url(./images/gradient.png);
+    background-image: url(../images/gradient.png);
     font-family: 'Lato', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero {
@@ -48,8 +52,8 @@ h1 {
 
 .hero-container>p {
     padding: 1rem 0;
-
     font-size: 1rem;
+    color: #333333;
 }
 
 .button {
@@ -76,11 +80,10 @@ button {
 .card_container>.cards {
     border: 0.125rem solid #FFFFFF;
     width: 12.5rem;
-    height: 10rem;
     border-radius: 2rem;
     padding: 1.5rem 1rem;
     font-size: 0.4rem;
-    color: #333333;
+    color: #333333; 
 }
 
 .cards>p {
@@ -89,6 +92,7 @@ button {
     margin: 0;
     padding-top: 1rem 2rem 0 0;
     text-align: left;
+    color: #333333;
 }
 
 .icon,

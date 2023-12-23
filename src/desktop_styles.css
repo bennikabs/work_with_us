@@ -14,9 +14,7 @@
         text-align: left;
         Width: 30.938rem;
         Height: 30rem;
-    margin-left: 1rem;
-  
-
+        margin-left: 1rem;
     }
 
     h1 {
@@ -26,6 +24,7 @@
 
     .hero-container>p {
         font-size: 1.5rem;
+        padding: 2rem 0;
     }
 
     h1,
@@ -34,7 +33,6 @@
     }
 
     .button {
-
         padding: 0;
     }
 
@@ -62,17 +60,13 @@
         flex-wrap: nowrap;
         gap: 20px;
         padding: 0rem;
-        margin-top:-2rem ;
-
-
+        margin-top: -2rem;
     }
 
     .card_container>.cards {
         flex-basis: initial;
         width: 12.5rem;
-        height: 8.75rem;
         margin: 0;
-
     }
 
     .cards>p {
